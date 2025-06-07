@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos de encabezado */
+header .bienvenida{
+    text-align: center;
+}
+header .contenedor-titulo-principal{
+    text-align: center;
+    background-color: rgb(226, 186, 133);
+    color: rgb(255, 255, 255);
+}
+header h2{
+    text-align: center;
+    background-color: rgb(226, 186, 133);
+    color: rgb(255, 255, 255);
+}
+header h3{
+    text-align: center;
+    background-color: rgb(226, 186, 133);
+    color: rgb(255, 255, 255);
+}
+
+.falso-body{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: 
+    "bienvenida bienvenida bienvenida"
+    "contenedor-titulo-principal contenedor-titulo-principal contenedor-menu"
+    "contenedor-titulo-principal contenedor-titulo-principal contenedor-menu"
+    "mensaje-publi mensaje-publi mensaje-publi"
+    "mini-desc-produ mini-desc-produ mini-desc-produ";
+    gap: 2px;
+}
+.bienvenida{
+    grid-area: bienvenida;
+}
+.contenedor-titulo-principal{
+    grid-area: contenedor-titulo-principal;
+}
+.contenedor-menu{
+    grid-area: contenedor-menu;
+}
+.mensaje-publi{
+    grid-area: mensaje-publi;
+}
+.mini-desc-produ{
+    grid-area: mini-desc-produ;
+}
+
+
+/* estilos encabezado menu */
+.contenedor-menu{
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color:rgb(226, 186, 133); 
+    background-color: rgb(225, 172, 102);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25px;
+}
+
+
+
+
+
+
+
+
+
+.menu-encabezado .item-menu{
+background-color: rgb(226, 179, 118) ;
+}
+
+
+
+
+
+
+/* estilos del body */
+body h2{
+    text-align: center;
+    background-color: rgb(226, 186, 133);
+    color: rgb(255, 255, 255);
+}
+body p{
+    background-color: rgb(248, 206, 151);
+    color: rgb(255, 255, 255);
+}
+
+
+/* estilos del footer */
+footer .informacion-pagos-envios .items{
+width: auto;
+height: 50px;
+}
+footer .informacion-pagos-envios{
+    background-color: rgb(255, 145, 0);;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+}
+footer .pagos{
+background-color: rgb(248, 206, 151);
+}
+footer .envios{
+background-color: rgb(251, 192, 114);
+}
+footer .redes{
+background-color: rgb(253, 178, 80);
+}
+footer .contacto{
+background-color: rgb(252, 156, 30);
+}
